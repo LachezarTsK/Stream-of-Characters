@@ -54,17 +54,9 @@ console.log("current array: " + array.circularArray);
 console.log("front: " + array.front + ", end: " + array.end);
 array.printEndToFront();
 
-array.addToEnd(ch.charAt(index++));
-console.log("current array: " + array.circularArray);
-console.log("front: " + array.front + ", end: " + array.end);
-array.printEndToFront();
-
-array.addToEnd(ch.charAt(index++));
-console.log("current array: " + array.circularArray);
-console.log("front: " + array.front + ", end: " + array.end);
-array.printEndToFront();
-
-array.addToEnd(ch.charAt(index++));
-console.log("current array: " + array.circularArray);
-console.log("front: " + array.front + ", end: " + array.end);
-array.printEndToFront();
+for (let i = 0; i < 3; i++) {
+    array.addToEnd(ch.charAt(index++));
+    console.log("current array: " + array.circularArray);
+    console.log("front: " + array.front + ", end: " + array.end);
+    array.printEndToFront();
+}
