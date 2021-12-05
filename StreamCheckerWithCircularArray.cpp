@@ -1,4 +1,6 @@
 
+//to run the code on leetcode.com, change the class name from 'StreamCheckerWithCircularArray' to 'StreamChecker'.
+
 #include <set>
 #include <vector>
 #include <string>
