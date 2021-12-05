@@ -19,20 +19,12 @@ public class CircularArray {
         System.out.println("front: " + array.front + ", end: " + array.end);
         array.printEndToFront();
 
-        array.addToEnd(ch++);
-        System.out.println("current array: " + Arrays.toString(array.circularArray));
-        System.out.println("front: " + array.front + ", end: " + array.end);
-        array.printEndToFront();
-
-        array.addToEnd(ch++);
-        System.out.println("current array: " + Arrays.toString(array.circularArray));
-        System.out.println("front: " + array.front + ", end: " + array.end);
-        array.printEndToFront();
-
-        array.addToEnd(ch++);
-        System.out.println("current array: " + Arrays.toString(array.circularArray));
-        System.out.println("front: " + array.front + ", end: " + array.end);
-        array.printEndToFront();
+        for (int i = 0; i < 3; i++) {
+            array.addToEnd(ch++);
+            System.out.println("current array: " + Arrays.toString(array.circularArray));
+            System.out.println("front: " + array.front + ", end: " + array.end);
+            array.printEndToFront();
+        }
 
     }
 
