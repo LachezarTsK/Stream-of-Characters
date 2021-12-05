@@ -1,8 +1,9 @@
 
+//to run the code on leetcode.com, change the var name from 'StreamCheckerWithCircularArray' to 'StreamChecker'.
 /**
  * @param {string[]} words
  */
-var StreamChecker = function (words) {
+var StreamCheckerWithCircularArray = function (words) {
     this.streamCheckerTools = new StreamCheckerTools(words);
 };
 
