@@ -1,6 +1,4 @@
 
-//to run the code on leetcode.com, change the class name from 'StreamCheckerWithCircularArray' to 'StreamChecker'.
-
 #include <set>
 #include <vector>
 #include <string>
@@ -94,7 +92,8 @@ public:
     }
 };
 
-class StreamChecker {
+//to run the code on leetcode.com, change the class name from 'StreamCheckerWithCircularArray' to 'StreamChecker'.
+class StreamCheckerWithCircularArray {
 public:
     Trie* dictionary;
     CircularArray* reversedStream;
